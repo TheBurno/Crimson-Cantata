@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --letter-color: #000;
+    --hover-color: #B2BEB5;
+    --footer-letter-color: #FFFFFF;
+    --semi-transparent: #808080;
+
+    --header-color: #1DB954;
+    --footer-color: #121212;
+}
+
+header{
+    display: flex;
+    background-color: var(--header-color);
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1.1em;
+    padding: 1% 0% 0% 0%;
+}
+
+.spotify-logo{
+    width: 25px;
+    height: 25px;   
+    margin-right: .5%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.tip{
+    color: var(--letter-color);
+    margin-top: .2%;
+}
+
+main{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 1%;
+    flex-direction: column;
+}
+
+.info{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}	
+
+.separator{
+    color: var(--semi-transparent);
+}
+
+.links{
+    color: var(--letter-color);
+    text-decoration: none;
+    margin-top: 1%;
+}
+
+.links:hover{
+    color: var(--hover-color);
+    text-decoration: none;
+}
+
+footer{
+    background-color: var(--footer-color);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding-top: 1%;
+    display: flex;
+    margin-top: 2%;
+    font-size: 0.8em;
+}
+
+.footer-text{
+    color: var(--footer-letter-color);
+    margin-left: 1%;
+}
